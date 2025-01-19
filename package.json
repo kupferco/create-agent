@@ -1,0 +1,22 @@
+{
+  "name": "create-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "create-agent": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.2.0",
+    "yargs": "^17.7.2"
+  }
+}
